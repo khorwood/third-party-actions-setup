@@ -12,7 +12,7 @@ jobs:
         run: |
           ./setup-ssh.sh
           git submodule update --init
-          git submodule foreach '$toplevel/sync.sh $sm_path'
+          git submodule foreach '$toplevel/sync-actions.sh $sm_path'
         env:
           APP_SSH_KEY: ${{ secrets.APP_SSH_KEY }}
           APP_SSH_USERNAME: git
