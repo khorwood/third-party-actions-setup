@@ -2,3 +2,7 @@
 	path = actions/checkout/v4
 	url = https://github.com/actions/checkout
 	branch = v4
+[submodule "aquasecurity/trivy-action/v0"]
+	path = aquasecurity/trivy-action/v0
+	url = https://github.com/aquasecurity/trivy-action
+	branch = 0.30.0
