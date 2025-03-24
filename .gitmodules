@@ -6,3 +6,7 @@
 	path = aquasecurity/trivy-action/v0
 	url = https://github.com/aquasecurity/trivy-action
 	branch = 0.30.0
+[submodule "github/codeql-action/v3"]
+	path = github/codeql-action/v3
+	url = https://github.com/github/codeql-action
+	branch = v3
