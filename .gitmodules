@@ -10,3 +10,7 @@
 	path = github/codeql-action/v3
 	url = https://github.com/github/codeql-action
 	branch = v3
+[submodule "hadolint/hadolint-action/v3"]
+	path = hadolint/hadolint-action/v3
+	url = https://github.com/hadolint/hadolint-action
+	branch = v3.1.0
