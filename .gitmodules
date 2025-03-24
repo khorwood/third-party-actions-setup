@@ -14,3 +14,7 @@
 	path = hadolint/hadolint-action/v3
 	url = https://github.com/hadolint/hadolint-action
 	branch = v3.1.0
+[submodule "hellofresh/action-changed-files/v3"]
+	path = hellofresh/action-changed-files/v3
+	url = https://github.com/hellofresh/action-changed-files
+	branch = v3
