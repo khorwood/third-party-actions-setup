@@ -1,0 +1,4 @@
+[submodule "actions/checkout/v4"]
+	path = actions/checkout/v4
+	url = https://github.com/actions/checkout
+	branch = v4
