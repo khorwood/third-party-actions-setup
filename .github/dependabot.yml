@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # opting not to group these to ensure each is reviewed
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
