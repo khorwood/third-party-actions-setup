@@ -1,0 +1,13 @@
+name: pull-request
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  lint:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: khorwood-org/third-party-actions@actions/checkout/v4
+        with:
+          submodules: recursive
+      - name: Ensure .gitmodules have a tag defined
+        run: git submodule foreach 'git config -f $toplevel/.gitmodules submodule.$name.branch'
